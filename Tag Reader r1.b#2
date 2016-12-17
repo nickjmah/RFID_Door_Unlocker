@@ -2807,6 +2807,9 @@ design rules under a new name.</description>
 <contactref element="U1" pad="32"/>
 <wire x1="11.17" y1="14.4526" x2="6.03" y2="18.88" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="SOL_OUT">
+<contactref element="Q1" pad="2"/>
+</signal>
 <signal name="RESET">
 <contactref element="U1" pad="29"/>
 <contactref element="ISP1" pad="5"/>
@@ -2862,8 +2865,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="SOL+">
 <contactref element="J2" pad="1"/>
-<contactref element="Q1" pad="2"/>
-<wire x1="-12.7" y1="3.81" x2="4.13" y2="18.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U3" pad="2"/>
@@ -2896,9 +2897,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$13">
 <contactref element="U3" pad="14"/>
-</signal>
-<signal name="N$1">
-<contactref element="U3" pad="11"/>
 </signal>
 </signals>
 </board>
